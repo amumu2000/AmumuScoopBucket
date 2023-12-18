@@ -9,7 +9,7 @@
             "url": "https://github.com/redis-windows/redis-windows/releases/download/7.0.14/Redis-7.0.14-Windows-x64-with-Service.tar.gz",
             "hash": "0678FD10306D5FBDC4EA33C8AADCA75E6A26BBDE35270CD48397897C4B50FD63",
             "extract_dir": "Redis-7.0.14-Windows-x64"
-        },
+        }
     },
     "bin": [
         "redis-benchmark.exe",
@@ -22,7 +22,7 @@
             "64bit": {
                 "url": "https://github.com/redis-windows/redis-windows/releases/download/$version/Redis-$version-Windows-x64-with-Service.tar.gz",
                 "extract_dir": "Redis-$version-Windows-x64"
-            },
-        },
+            }
+        }
     }
 }
