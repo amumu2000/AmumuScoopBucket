@@ -12,6 +12,12 @@
     "bin": [
         "Tiny RDM.exe"
     ],
+    "shortcuts": [
+        [
+            "Tiny RDM.exe",
+            "Tiny RDM"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/tiny-craft/tiny-rdm"
     },
