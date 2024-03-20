@@ -1,0 +1,26 @@
+{
+    "version": "1.1.10",
+    "description": "A Modern Redis GUI Client",
+    "homepage": "https://redis.tinycraft.cc/",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.1.10/TinyRDM_Portable_1.1.10_windows_x64.zip",
+            "extract_dir": "Tiny-RDM-1.1.10"
+        }
+    },
+    "bin": [
+        "Tiny RDM.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/tiny-craft/tiny-rdm"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Portable_$version_windows_x64.zip",
+                "extract_dir": "Tiny-RDM-$version"
+            }
+        }
+    }
+}
