@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.1.10/TinyRDM_Portable_1.1.10_windows_x64.zip",
-            "extract_dir": "Tiny-RDM-1.1.10"
+            "hash":"ac91991f4b23bf8dcb0289883ee9a7afefcd01d17fa7126f2433915942900d0b"
         }
     },
     "bin": [
@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Portable_$version_windows_x64.zip",
+                "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/$version/TinyRDM_Portable_$version_windows_x64.zip",
                 "extract_dir": "Tiny-RDM-$version"
             }
         }
